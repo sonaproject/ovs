@@ -151,8 +151,7 @@ enum ofputil_protocol ofputil_protocols_from_version_bitmap(uint32_t bitmap);
                                     (1u << OFP11_VERSION) | \
                                     (1u << OFP12_VERSION) | \
                                     (1u << OFP13_VERSION) | \
-                                    (1u << OFP14_VERSION) | \
-                                    (1u << OFP15_VERSION))
+                                    (1u << OFP14_VERSION))
 #define OFPUTIL_DEFAULT_VERSIONS OFPUTIL_SUPPORTED_VERSIONS
 
 enum ofputil_protocol ofputil_protocols_from_string(const char *s);
